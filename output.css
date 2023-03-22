@@ -1086,8 +1086,8 @@ video {
 
 @media (max-width: 976px){
   .mainMenu{
-    height: 60vh;
-    width: 30vw;
+    height: 40vh;
+    width: 100vw;
     top: 0;
     right: 0;
     z-index: 1;
@@ -1104,6 +1104,10 @@ video {
     position: absolute;
     top: 20px;
     right: 20px;
+  }
+
+  .mainMenu li{
+    margin-top: 12px;
   }
 
   .mainMenu li a{
