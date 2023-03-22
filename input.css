@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 976px){
+    .mainMenu{
+        height: 60vh;
+        width: 30vw;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        transition: top 1s ease;
+        position: absolute;
+    }
+    .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .mainMenu li a{
+        color: rgb(133, 133, 133);
+        margin: 5px 0;
+        font-size: 1.2rem;
+    }
+    .mainMenu li a:hover{
+        background: none;
+        color: black;
+        font-size: 1.5rem;
+    }
+}
